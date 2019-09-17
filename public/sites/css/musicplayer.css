@@ -1,0 +1,443 @@
+/*
+    AUTHOR: Sam Johnson
+    MINIMusic Player
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #141942;
+}
+
+header h2 {
+  color: #f09f8b;
+  text-align: center;
+}
+
+/* HTML5 Audio player with playlist styles */
+.example,
+.example2,
+.example3 {
+  margin: 50px auto 0;
+  width: 390px;
+  padding-bottom: 50px;
+}
+
+.player {
+  background: #f09f8b;
+  height: 220px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.title,
+.artist {
+  font-family: verdana;
+  left: 167px;
+  position: absolute;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  top: 23px;
+}
+.artist {
+  color: #eeeeee;
+  font-size: 12px;
+  top: 40px;
+}
+.pl {
+  background: url(../images/playlist.png) no-repeat;
+  cursor: pointer;
+  height: 40px;
+  left: 330px;
+  position: absolute;
+  top: 20px;
+  width: 39px;
+}
+.pl:hover {
+  top: 21px;
+}
+.cover {
+  border-radius: 5px 5px 5px 5px;
+  height: 94px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 94px;
+}
+.controls {
+  cursor: pointer;
+  left: 0px;
+  position: absolute;
+  top: 65px;
+  left: 122px;
+}
+.controls .play,
+.controls .pause {
+  width: 60px;
+  height: 60px;
+  margin: 0 5px 0px 5px;
+}
+.controls .play,
+.controls .pause,
+.controls .rew,
+.controls .fwd,
+.controls .stop {
+  text-indent: -10000px;
+  border: none;
+  float: left;
+}
+.controls .rew,
+.controls .fwd,
+.controls .stop {
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 5px 5px;
+}
+.controls .play {
+  background: url(../images/play.png) no-repeat;
+}
+.controls .pause {
+  background: url(../images/pause.png) no-repeat;
+  display: none;
+}
+.controls .rew {
+  background: url(../images/rewind.png) no-repeat;
+}
+.controls .fwd {
+  background: url(../images/next.png) no-repeat;
+}
+.controls .stop {
+  background: url(../images/stop.png) no-repeat;
+}
+.hidden {
+  display: none;
+}
+.controls .visible {
+  display: block;
+}
+.volume {
+  height: 11px;
+  left: 230px;
+  position: absolute;
+  top: 142px;
+  width: 140px;
+}
+.mute .volume-btn {
+  background: url(../images/volume-off.png) no-repeat;
+}
+.volume-btn {
+  background: url(../images/volume-up.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  float: left;
+  position: relative;
+  top: -4px;
+}
+.volume-adjust {
+  height: 11px;
+  position: relative;
+  width: 80%;
+  background: #fff;
+  float: right;
+}
+.volume-adjust > div > div {
+  height: 11px;
+  background: #151b48;
+}
+.progressbar {
+  background-color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  right: 6.875em; /* 110 */
+  height: 15px;
+  left: 0px;
+  position: absolute;
+  width: 90%;
+  top: 170px;
+  margin: 0px 5%;
+}
+.novolume .progressbar {
+  right: 4.375em; /* 70 */
+}
+.progressbar div {
+  width: 0%;
+  height: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bar-loaded {
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+.bar-played {
+  background: #151b48;
+  z-index: 2;
+}
+.timeHolder {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  bottom: 10px;
+  position: absolute;
+  margin: 0px 5%;
+  width: 90%;
+}
+.time-current,
+.time-duration,
+.time-separator {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+.volume .ui-slider-handle {
+  background: url("../images/spr.png") no-repeat scroll -201px -188px
+    rgba(0, 0, 0, 0);
+  height: 13px;
+  width: 13px;
+}
+.playlist {
+  background-color: #fff;
+  list-style-type: none;
+  margin: -10px 0 0 2px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  position: relative;
+  width: 95%;
+  z-index: 1;
+  margin: 0px auto;
+}
+.playlist li,
+.playlist div {
+  color: #151b48;
+  cursor: pointer;
+  margin: 0 0 5px 15px;
+}
+.playlist li > a,
+.playlist div > a {
+  color: #151b48;
+  text-decoration: none;
+}
+.playlist li.active,
+.playlist div.active {
+  font-weight: bold;
+}
+.slick-dots {
+  bottom: 5px !important;
+}
+.slick-dots li button:before {
+  font-size: 8px !important;
+}
+
+
+.audio_player .progressbar {
+    height: 12px;
+    }
+
+@media (max-width: 1199px){
+
+.audio_player .controls {
+    right: auto;
+    top: auto;
+    left: 32px;
+    bottom: 14px;
+}
+
+.audio_player .progressbar {
+    left: 60px;
+    width: 65%;
+    top: 170px;
+}
+
+.audio_player .timeHolder {
+    left: 61px;
+}
+
+}
+
+@media (max-width: 991px){
+
+.audio_player .volume {
+    width: 110px;
+    right: 20px;
+    bottom: 38px;
+}
+
+.audio_player .progressbar {
+    left: 75px;
+    width: 60%;
+    top: 170px;
+}
+
+.audio_player .timeHolder {
+    left: 75px;
+}
+
+.audio_player .cover {
+    height: 114px;
+    left: 18px;
+}
+
+.audio_player .title, .audio_player .artist {
+    left: 149px;
+}
+
+.audio_player .controls {
+    right: auto;
+    top: auto;
+    left: 12px;
+    bottom: 14px;
+}
+
+}
+
+@media (max-width: 767px){
+
+.audio_player .progressbar {
+    width: 50%;
+}
+
+
+}
+
+@media (max-width: 550px){
+.controls .play, .controls .pause {
+    width: 50px;
+    height: 50px;
+}
+
+.controls .play {
+    background-size: contain;
+}
+
+}
+
+@media (max-width: 530px){
+.audio_player .progressbar {
+    left: 55px;
+    }
+
+.audio_player .timeHolder {
+    left: 55px;
+}
+
+}
+
+
+@media (max-width: 510px){
+.audio_player .volume {
+    width: 110px;
+}
+
+.audio_player .title {
+    font-size: 14px;
+}
+.audio_player .cover {
+    left: 14px;
+  }
+
+  .audio_player .controls {
+    left: 9px;
+    bottom: 14px;
+}
+.audio_player .progressbar {
+    width: 50%;
+    left: 53px;
+}
+
+.audio_player .volume {
+    right: 15px;
+    bottom: 38px;
+}
+
+.audio_player .timeHolder {
+    margin: 0;
+    width: 61%;
+    left: 70px;
+}
+
+.audio_player .title, .audio_player .artist {
+    left: 140px;
+}
+
+}
+
+@media (max-width: 468px){
+
+.audio_player .progressbar {
+    width: 45%;
+    left: 53px;
+}
+
+}
+
+@media (max-width: 430px){
+
+.audio_player .progressbar {
+    width: 38%;
+    left: 53px;
+}
+
+.controls .play, .controls .pause {
+    width: 40px;
+    height: 40px;
+}
+
+}
+
+
+
+@media (max-width: 385px){
+
+.audio_player .volume {
+    right: 15px;
+    bottom: 38px;
+}
+
+.audio_player .volume {
+    width: 80px;
+}
+
+.volume-adjust {
+    width: 70%;
+}
+
+}
+
+
+@media (max-width: 320px){
+
+.audio_player .cover {
+    height: 71px;
+    left: 15px;
+    position: absolute;
+    top: 14px;
+    width: 70px;
+}
+
+.audio_player .title, .audio_player .artist {
+    left: 95px;
+}
+
+.audio_player .progressbar {
+    width: 30%;
+    left: 60px;
+}
+
+.audio_player .volume {
+    width: 102px;
+}
+
+
+
+
+}

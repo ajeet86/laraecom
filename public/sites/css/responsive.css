@@ -1,0 +1,717 @@
+@media only screen and (min-width: 1025px) {
+.books-divs img {width: 76%!important;}
+}
+
+@media only screen and (max-width: 1776px) {
+.last-right-side {margin-top: 92px;}
+.subs-buton {
+right: 16px;bottom: 52px;}	
+}
+
+@media only screen and (max-width: 1610px) {
+.subs-buton { right: 16px;bottom: 52px;}
+}
+@media only screen and (max-width: 1680px) {
+#order_list .table-responsive { display: block;}
+#order_details .table-responsive { display: block;}
+#sell_list  .table-responsive { display: block;}
+}
+@media only screen and (max-width: 1586px) {
+.last-right-side img {width: 100%;}
+.text-overlays p {font-size: 21px;}
+.text-overlays h5 {font-size: 47px;	}
+.about-desp {line-height: 31px;font-size: 15px;}
+}
+
+@media only screen and (max-width: 1518px) {
+.about-desp {margin-top: -2px;
+}
+.right-side {margin-top: 9px;}
+ .tree-img-clss {
+  float: right;width: auto; position: absolute;top: 0px;margin: 0px 0px;margin-top: 0px;position: relative;margin-top: -152px;}
+}
+
+@media only screen and (max-width: 1446px) {
+
+.right-text.dash-b-right ul li {
+    margin: 0 20px;
+}
+
+#contact .manues {
+margin-left: 50px!important;}
+.selbs-main p {font-size: 16px;}
+.leftfgd-img img {width: 100%;}
+.text-over  lays {top: 132px;}
+}
+
+@media only screen and (max-width: 1420px) {
+.subs-buton {right: 16px;bottom: 87px;}
+.form-sec p {font-size: 16px;}
+.text-cls p {font-size: 15px;}
+.text-cls h6 {font-size: 19px;}
+.last-right-side {margin-top: 92px;}
+.our-comp-img img { width: 92%;}
+}
+@media only screen and (max-width: 1320px) {
+.selbs-main {height: 624px;}
+.selbs-inner {height: 585px;
+}
+ 
+.text-overlays h5 {font-size: 36px;}
+.our-comp-img::before {width: 599px;top: 123px;}
+.books-divs {top: 383px;}
+}
+
+@media only screen and (max-width: 1280px) {
+.leftfgd-img img { width: 100%;}
+.text-overlays {top: 90px;}
+.search-buton {right: 3px; }
+span.notification {right: 2px; top: 2px;}
+}
+@media only screen and (max-width: 1240px) {
+.right-side { margin-top: 4px;}
+.text-overlays h5 {font-size: 31px;}
+.text-overlays p {font-size: 17px;}
+}
+
+@media only screen and (max-width: 1199px) {
+.cust-nav .right-text ul li:last-child {padding: 0;width: 25%;}    
+.left-side img {width: 100%;max-width: 100%;}
+.search-buton {right: 0px;}
+.media-body .testimonial p {font-size: 12px;}
+.right-side h6 {font-size: 18px;}
+.right-side { margin-top: 11px;}
+.selbs-main { height: 674px;}
+.selbs-inner {height: 639px;}
+.gallerry {margin-top:0px;}
+.our-comp-img img {
+width: 94%;}
+
+.our-comp-img::before {top: 70px;right: 13px;width: 538px;}
+.last-right-side {margin-top: 31px;}
+.bags {padding-left: 25px;}
+.top-mainn-cls {margin-top: 33px;
+}
+.top-bagess-cls {margin-top: 38px;}
+.navbar-dark .navbar-nav .nav-item{margin: 0px 16px;}
+}
+@media only screen and (max-width: 1072px) {
+.about-desp p { margin-top: 8px;}
+.about-desp {margin-top: 0px;}
+.about-desp {line-height: 26px;font-size: 14px;}
+}
+@media only screen and (max-width: 1076px) {
+#buy_now {margin-left: 0px !important;}
+}
+
+@media only screen and (max-width: 1040px) {
+.text-cls {padding-top: 81px;}
+.text-cls h6 {font-size: 16px;}
+/*section.gallerry {overflow: auto;}*/
+}
+
+@media only screen and (max-width: 1024px) {
+.login-wrapper{padding: 27px 0;}
+.product-wrapper .filter-wraper aside {height: 1090px;overflow:auto;}
+.leftfgd-img img {width: 100%;}
+.text-overlays {position: relative;top: 36px;}
+.selbs-main {height: 676px;}
+.selbs-inner { height: 640px;}
+.right-side h6 {font-size: 17px;}
+.books-divs img {width: 64%!important;}
+.our-comp-img::before {top: 32px;}
+.books-divs { right: -133px;top: 314px;}
+.right-text ul li i { padding-left: 23px;color: #59aeca;font-size: 24px;}
+.right-text ul li::before {height: 111px;width: 2px;top: -37px;}
+
+.cont-info.shipping-info {
+    max-width: 400px;
+    margin: 80px 0;
+    width: 95%;
+}
+
+.cont-info { min-width: 450px;padding: 50px;}
+.product-wrapper aside { margin-right: 0;}
+.dashboard-body aside li a { font-size: 16px;}
+}
+@media only screen and (max-width: 991px) {
+.navbar-toggler:not(:disabled):not(.disabled) { margin: 8px 0px;}
+.right-text {padding-bottom: 20px;}
+.manues {padding-top: 53px;}
+.iconddf-img img { width: 10%;}
+.parar {font-size: 15px;}
+.buy-sell { padding-bottom: 107px;}
+.logoog-div {margin-top: -68px;}
+.buy-sell-section-main p {padding-left: 8px;padding-right: 8px;}
+.buy-sell-section-main h5 {padding: 0px 10px;}
+.buy-sell-section-main img {width: 18%;max-width: 100%;}
+.right-side { margin-top: 5px;}
+.search-buton {right: 0px;}
+.carousel .media img {display: block;top: -14%;width: 29%;}
+.carousel .testimonial {padding: 0 15px 0 33px;}
+.carousel .testimonial::before {top: -33%;left: 37px;}
+.media-body .testimonial h6 {font-size: 18px;}
+.title-topp h6 {font-size: 17px; padding-left: 0px;}
+.add_product h6{font-size: 10px!important;}
+.media1-left h6 {font-size: 12px;}
+.media1-left h5 {font-size: 15px;}
+.selbs-main p {font-size: 15px;}
+.left-side img {width: 90%;max-width: 100%;}
+.right-side h6 {font-size: 15px;}
+.box3 .title {font-size: 17px;}
+.gallery-text-sec p {font-size: 17px;}
+.gallery-text-sec h6 {font-size: 18px;}
+.about-desp {line-height: 24px;font-size: 13px;
+}
+.all-heading h4 {font-size: 25px;}
+.more-buton {margin: 6px auto;width: 148px;max-width: 100%;font-size: 20px; }
+.tree-img-clss {margin-top: -159px;right: -18%;}
+.tree-img-clss img{width: 62%;}
+/*.gallerry {margin-top: -124px;}*/
+.selbs-main {height: 708px;}
+.selbs-inner {height: 667px;}
+.our-comp-img::before {width: 444px; top: 65px;height: 308px;
+}
+.books-divs img {width: 49% !important;}
+.books-divs {right: -153px;}
+.see-catalog {margin: 6px auto;}
+.right-text { float: left;}
+.navigation-main {padding-bottom: 10px;margin-top: 29px;}
+.navbar-dark .navbar-nav .nav-link {line-height: 32px;}
+.right-text ul li i { padding-left: 17px;}
+.right-text ul li {padding: 0px 1px;}
+.right-text ul li::before {display: none;}
+.navbar { padding: 0rem;}
+.bags {padding-left: 12px;}
+.top-header img { width: 39%;}
+.navbar-dark .navbar-toggler {color: #000;border-color:#000;}
+.form-group.row.m-t-25 {margin-left: 0;margin-right: 0;}
+.dash-container {margin-top: 30px;}
+.product-wrapper aside {margin-right: 0;}
+}
+
+@media only screen and (max-width: 899px) {
+.buy-sell-section-main p {color: #fff;font-size: 18px;}
+.left-side img {width: 104%;max-width: 100%;}
+.about-desp {line-height: 22px;font-size: 12px;}
+.selbs-inner {height: 698px;}
+.selbs-main p{line-height: 22px;}
+.selbs-main {height: 735px;}
+.box3 .title {font-size: 16px;}
+.gallerry {margin-top: 0px;}
+.gallery-text-sec p {font-size: 14px;}
+.our-comp-img img {width: 100%; }
+.our-comp-img::before { top: 70px;right: -17px; width: 384px; height: 248px;}
+.text-overlays p {font-size: 13px;}
+.text-overlays h5 {font-size: 24px;}
+.text-overlays h6 {font-size: 24px;}
+
+.see-catalog {margin: 0px auto;width: 150px;padding: 4px 0px;font-size: 15px;line-height: 31px;}
+/*.books-divs {right: 0px;top:auto; bottom: 0;} */  
+}
+
+@media only screen and (max-width: 823px) {
+.text-overlays {
+    position: relative;
+    top: 37px;}
+}
+
+@media only screen and (max-width: 812px) {
+.top-login-wrap {
+    padding-top: 33px;}
+
+.leftfgd-img img {
+    width: 100%;}
+
+.books-divs {
+    right: 0px;
+    top: auto;
+    bottom: 180px;
+    width: 100px;}
+
+.books-divs img {width: 100% !important;}
+
+}
+@media only screen and (max-width: 786px) {
+.tree-img-clss {margin-top: -159px;right: -29%;
+}
+.tree-img-clss img {width: 51%;}
+.selbs-main {height: 753px;}
+.selbs-inner {height: 717px;}
+.left-side img {width: 106%; max-width: 100%;}
+.cont-info {
+    min-width: 340px;
+    padding: 50px;
+}
+.login_validator .form-group.row {
+    margin-right: 0;
+    margin-left: 0;}
+}
+@media only screen and (max-width: 767px) {
+.order-header {
+    float: left;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.top-login-wrap {
+    padding-top: 10px;
+}
+.form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.our-comp-img {
+    float: none;
+    width: 70%;
+    position: relative;
+    margin: 0 auto 120px auto;
+}
+
+.books-divs {
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.leftfgd-img {
+    text-align: center;
+}
+.leftfgd-img img {
+    width: 400px;
+    height: auto;
+    display: inline-block;
+}  
+.text-overlays {
+    top: 0!important;
+    left: 0!important;
+    position: relative!important;
+    margin: 30px 0;
+}
+
+.last-right-side{
+  text-align: center;
+}
+
+.last-right-side img{
+  width: 400px;
+    height: auto;
+    display: inline-block;
+}
+
+  .right-text.dash-b-right {
+    width: 92%;
+}
+.product-wrapper aside {
+    margin-right: 0;
+}
+.user-info-details-list button.dropdown-toggle {
+    float: left;
+}
+.iconddf-img img {width: 7%;}
+.testimonial h2 { margin-left: 0px;}
+.border-textss hr {width: 95%;}
+.kontact-icons img {width: 26%;display:inline-block;margin: 0px !important;
+}
+.social-icons{text-align: center;margin-bottom: 17px;}
+#contact .manues { margin: 0!important;
+}
+.manues ul li {
+    display: inline;
+    background-position: 0;
+}
+.manues {padding-top: 17px;
+}
+.text-cls {padding-top: 19px;
+}
+.form-sec {padding-top: 18px;}
+#texty .carousel { padding: 0 0px!important;}
+.buy-sell-section-main p {
+font-size: 18px;padding: 0px 12px;
+}
+.buy-sell-section-main h5 {font-size: 29px;
+}
+.buy-sell-section-main img { width: 27%;max-width: 100%;}
+.logoog-div {margin-top: -81px;margin-bottom: 35px;}
+.selbs-main p {font-size: 17px; text-align: center;
+}
+.media1-left h5 {font-size: 18px;}
+.media1-left h6 {font-size: 14px;}
+.add_product h6 {font-size: 13px !important;}
+.selbs-inner { height: auto;}
+.selbs-main {height: auto;}
+.left-side img {
+    width: 45px;
+    max-width: 100%;
+}
+.right-side {margin-top: 15px;}
+.right-side h6 {font-size: 21px;}
+.box3 .title { font-size: 25px;
+
+}
+.gallery-text-sec h6 {font-size: 21px;}
+.galleryyy{margin-top:10px;}
+.gallery-text-sec p { font-size: 18px;}
+.tree-img-clss { margin-top: -220px;}
+.about-desp {margin-top: 87px;}
+.about-desp {line-height: 32px; font-size: 15px;}
+.our-comp-img img { width: 100%;}
+.books-divs {right: 0px;top: 317px;}
+.our-comp-img::before {
+    top: auto;
+    right: -58px;
+    bottom: -60px;
+}
+.leftfgd-img img {width: 56%;max-width: 100% !important;margin: 0px auto; display: block;
+}
+.last-right-side img {width: 58%;margin:0px auto;display:block;}
+.see-catalog {margin: 0px auto;width: 150px;padding: 4px 0px;font-size: 17px;line-height: 40px;
+}
+.text-overlays p {font-size: 20px;padding: 0px 22px;}
+.text-overlays h5 {font-size: 37px;}
+.text-overlays h6 {font-size: 33px;}
+.text-overlays {position: relative;top: 36px;left: 0px;margin-bottom: 46px;}
+.top-header img {width: 31%;}
+.top-header img {margin: 0px auto; display: block;}
+.top-bagess-cls { margin: 20px auto;text-align: center;display: table;}
+.borderr-clls {display: table-cell;}
+.search-buton {right: 5px;}
+.search-text {max-width:100%;display: block;text-align: left;margin: 0;float:none;}
+.top-mainn-cls { margin-top: 19px;}
+
+.gallerry .gallery-sec figure {
+    height: auto;
+}
+
+.gallerry .gallery-sec figure img {
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+}
+
+.left-side {
+    width: 50px;
+    float: none;
+    display: inline;
+    margin: 0;
+}
+
+.right-side {
+    width: auto;
+    display: inline-block;
+    float: none;
+}
+
+.padtop {
+    text-align: center;
+}
+
+.about-desp p {
+    text-align: center;
+}
+
+.pad-50 {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.selbs-main p {
+    margin: 0px auto 20px auto;
+    padding: 0;
+}
+
+.pad-50 {
+    text-align: center;
+}
+
+.img-icons {
+    width: 90px;
+    height: 90px;
+}
+
+.img-icons img {
+    margin: 25px auto;
+    width: 100%;
+    max-width: 50px;
+}
+.form-sec p {
+    text-align: center;
+}
+.text-cls h6 {
+    text-align: center;
+}
+.text-cls p {
+    text-align: center;
+}
+
+.book-description-cls {
+    margin-top: 50px;
+}
+
+.buy {
+    margin-left: 0;
+}
+
+.payment-info {
+    margin-top: 30px;
+}
+
+.cont-info.shipping-info {
+    max-width: inherit;
+    margin: 80px auto;
+    width: 100%;
+}
+
+.iconddf-img {
+    text-align: center;
+}
+
+.iconddf-img img {
+    display: inline-block;
+}
+
+.remove_field , .add_field_button {
+    margin-top: 0px;
+}
+
+.right-text ul li:last-child {
+    padding: 0;
+    width: 100%;
+}
+
+
+.cont-info {
+    min-width: inherit;
+    padding: 50px;
+}
+.contact_email {
+    word-break: break-word;
+}
+
+}
+
+@media only screen and (max-width: 736px) {
+
+.last-right-side img {
+    width: 30%;
+}
+.leftfgd-img img {
+    width: 30%;
+}
+
+}
+
+
+@media only screen and (max-width: 680px) {
+.books-divs {right: 0px;top: 317px;}
+.our-comp-img img {width: 83%;
+}
+.our-comp-img::before {top: 90px;right: 0px;
+}
+.our-comp-img::before {
+    height: 228px;
+    width: 380px;
+}
+.gallerry { margin-top:0px;}
+.tree-img-clss {
+    margin-top: -161px;right: -41%;
+}
+.tree-img-clss img {
+   width: 45%;
+}
+
+}
+
+@media only screen and (max-width: 660px) {
+.right-side {margin-top: 7px;}
+}
+
+@media only screen and (max-width: 640px) {
+	
+
+.books-divs {
+    right: 80px;
+    top: 187px;
+    width: 160px;
+}
+
+.books-divs img {
+    width: 100% !important;
+}
+
+.last-right-side img {
+    width: 50%;
+}
+
+}
+
+@media only screen and (max-width: 625px) {
+.selbs-main { height: 1207px;}
+.selbs-inner {height: 1172px;}
+.our-comp-img::before {top: 70px;right: 29px;}	
+.our-comp-img img { width:88%;}	
+.books-divs {
+    right: 71px;
+}
+.our-comp-img::before {width: 341px;
+}
+.about-desp {
+    margin-top: 120px;
+    text-align: center;
+}
+.selbs-main p { color: #8e9097;width: 90%;float: none;margin: 0px auto;
+}
+.leftfgd-img img { width: 50%;}
+}
+
+@media only screen and (max-width: 590px) {
+.selbs-main { height: 1307px;}
+.selbs-inner {height: 1272px;}
+.check-out-btn { margin: 0 5px 10px 0;}    
+
+.kontact-icons img {width: 33%;display: inline-block;margin: 0px !important; 
+}
+.social-icons{text-align: center;margin-bottom: 17px;}
+.text-cls {padding-top: 26px;
+
+}
+#contact .manues {
+    margin-left: 11px !important;
+}
+.form-sec {
+    padding-top: 19px;
+}
+.manues { padding-top: 10px;}
+}
+@media only screen and (max-width: 575px) {
+.navbar-toggler:not(:disabled):not(.disabled) {margin: 8px 14px;
+}
+.our-comp-img img { width: 91%;}
+.our-comp-img::before { right: -30px; height: 204px;
+}
+.books-divs { right: 50px;top: 201px;width: 100px;height: 100px;
+}
+.books-divs img {width: 100% !important;}
+.testimonial h2 {font-size: 26px;}
+.carousel .media img {display: block;top: -14%;width: 11%;}
+.carousel .testimonial::before {top: -68%;left: 26px;font-size: 15px;}
+.txzx { margin-top: 30px;}
+.tree-img-clss {margin-top:-67px;right: -48%;}
+.about-us {margin-bottom: 0;}
+}
+
+@media only screen and (max-width: 534px) {
+.selbs-main { height: 1407px;}
+.selbs-inner {height: 1372px;}
+.tree-img-clss {margin-top:-60px;}
+.left-side img {width: auto;max-width: 100%;}
+}
+
+@media only screen and (max-width: 518px) {
+.box3 .title {font-size: 21px;}
+}
+
+@media only screen and (max-width: 505px) {
+.gallerry {margin-top: -49px;}
+.our-comp-img::before { right: 27px;}
+.books-divs {top: 268px;}
+.logoog-div { margin-top: -69px;margin-bottom: 35px;}
+.buy-sell-section-main img {width: 31%;max-width: 100%;}
+.carousel .testimonial::before {top: -52%;left: 21px;font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.selbs-main { height: 1507px;}
+.selbs-inner {height: 1472px;}
+.exp-chekout {position: absolute;   top: -9px;width: 100px;background: #fff;font-size: 12px;right: 17px;
+}
+.express-paypal {text-align: center; border: 1px solid #ddd; padding: 16px;border-radius: 5px;position: relative;
+}
+.tree-img-clss img {width: 50%;}
+.gallerry {margin-top: -22px;}
+.our-comp-img::before { height: 168px; right: -11px;width: 270px;}
+.books-divs { top: 184px;width: 70px;height: 80px; right: 60px;}
+.books-divs img {width: 100% !important;}
+.search-buton { right: 0px;}
+.buy-sell-section-main h5 {font-size: 27px;padding: 0px 10px;}
+.buy-sell-section-main p {font-size: 17px;padding: 0px 12px;}
+}
+
+@media only screen and (max-width: 446px) {
+.iconddf-img img {width: 11%;padding-top: 6px;}
+.carousel .media img {width: 18%;}
+.selbs-main p {font-size: 16px;}
+.left-side img {width: auto; max-width: 100%;}
+}
+
+@media only screen and (max-width: 430px) {
+.selbs-main { height: 1607px;}
+.selbs-inner {height: 1572px;}
+.books-divs {top: 218px;}
+.our-comp-img::before {height: 147px; width: 211px;}
+}
+
+@media only screen and (max-width: 412px) {
+.our-comp-img {margin: 0 auto 0px auto;}
+}
+
+
+@media only screen and (max-width: 410px) {
+.books-divs img {width: 100% !important;}
+.our-comp-img::before {height: 226px;}
+#pad-topss-test  .testimonial::before {top: -41%!important;
+	}
+.logoog-div {margin-top: -57px; margin-bottom: 35px;}
+.box3 .title {font-size: 17px;}
+}
+
+@media only screen and (max-width: 384px) {
+.leftfgd-img img {width: 50%;}
+.last-right-side img { width: 50%;}
+.our-comp-img::before {height: 126px;}
+.books-divs {top: 138px;}
+}
+
+
+@media only screen and (max-width: 375px) {
+.selbs-main { height: 1738px;}
+.selbs-inner {height: 1672px;}
+.our-comp-img::before {width: 188px;height:103px;}
+.books-divs { top: auto;width: 80px;bottom: 50px;}
+.search-buton {right: 0px;}
+}
+
+@media only screen and (max-width: 364px) {
+.logoog-div { margin-top: -41px;margin-bottom: 13px;}
+.carousel .testimonial::before {top: -42%;
+}
+
+.all-heading h4 {font-size: 24px;}
+.selbs-main {height: auto;}
+.selbs-inner {height: auto;  padding-top: 30px;}
+.left-side img {width: auto;max-width: 100%;}
+}
+
+@media only screen and (max-width: 360px) {
+.books-divs {top: auto; width: 80px; bottom: -50px;}
+.leftfgd-img img {width: 50%;}
+.last-right-side img {width: 60%;}
+}
+@media only screen and (max-width: 332px) {
+.books-divs img {width: 40% !important;}
+.books-divs {top: 155px;right: 0px;}
+.our-comp-img::before { width: 170px;height: 87px;right: 0;bottom: 0;
+}
+.parar {font-size: 14px;}
+#pad-topss-test .testimonial::before {top: -36% !important;}
+.carousel .testimonial::before {top: -39%;}
+.carousel .media img {width: 24%;
+}
+.selbs-main {height: auto;}
+.selbs-inner { height: auto;}
+.left-side img {width: auto;max-width: 100%;}
+.right-side h6 {font-size: 19px;}
+.selbs-main p {font-size: 15px;}
+}
